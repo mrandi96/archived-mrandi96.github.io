@@ -1,16 +1,15 @@
 import React from 'react';
-import env from 'react-dotenv';
 import { MainNavigation } from "./Navigations/MainNavigation";
 import { initializeApp } from 'firebase/app';
 
 function App() {
   const firebaseConfig = {
-    apiKey: env.API_KEY,
-    authDomain: env.AUTH_DOMAIN,
-    projectId: env.PROJECT_ID,
-    storageBucket: env.STORAGE_BUCKET,
-    messagingSenderId: env.MESSAGING_SENDER_ID,
-    appId: env.APP_ID
+    apiKey: "AIzaSyDv2N6jMpgd3v4o7YZuW7qRWxabKi6n7yU",
+    authDomain: "github-pages-ac16a.firebaseapp.com",
+    projectId: "github-pages-ac16a",
+    storageBucket: "github-pages-ac16a.appspot.com",
+    messagingSenderId: "784440320686",
+    appId: "1=784440320686=web=9afcdd79c80d148548433f"
   };
 
   const firebaseApp = initializeApp(firebaseConfig);

@@ -1,5 +1,4 @@
-import React from 'react';
-import { useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import classes from '../CSS/NavigationBar.module.css';
 import colors from '../CSS/Colors.module.css';
@@ -13,7 +12,7 @@ export function NavigationBar() {
       { id: 'category2', name: 'Category', path: '/category' },
       { id: 'development3', name: 'Development', path: '/development' },
       { id: 'about4', name: 'About', path: '/about' }
-    ])
+    ]);
   }, []);
 
   return !!menu.length && <nav className={`${classes.container} ${colors.surface}`}>

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { PostItem } from '../Components/PostItem';
 import { getFirestore, collection, getDocs } from 'firebase/firestore/lite';
+import { PostItem } from '../Components/PostItem';
 
 export function HomePage({ firebaseApp }) {
   const [posts, setPosts] = useState([]);
