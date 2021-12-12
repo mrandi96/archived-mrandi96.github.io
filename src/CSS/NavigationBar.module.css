@@ -1,0 +1,28 @@
+.container {
+  width: 100%;
+  height: 10vh;
+  min-height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  top: 0;
+  font-size: 1.1em;
+  z-index: 300;
+}
+
+.link {
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+.link:link, .link:visited {
+  color: #DA0037;
+}
+
+.link:hover {
+  color: #EDEDED;
+}
+
+.link:link:active {
+  color: blue;
+}
